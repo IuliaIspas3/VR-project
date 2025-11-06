@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class touchTrash : MonoBehaviour
 {
+    [SerializeField] private string trashTag;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("PaperBin"))
+        if (other.CompareTag(trashTag))
         {
             Destroy(gameObject);
 

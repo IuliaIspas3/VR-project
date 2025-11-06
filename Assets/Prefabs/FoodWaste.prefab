@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7203829689441085878}
   m_Layer: 0
   m_Name: inside
-  m_TagString: PaperBin
+  m_TagString: FoodWaste
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,6 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90698bbcdedf7647a1ad400c88c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashTag: 
 --- !u!1 &6869198193443479073
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +363,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 66d6133ea45e15d4ca557f1b7a6ff56d, type: 2}
     - target: {fileID: 919132149155446097, guid: c61f62438f1fcef498c8b2411e2b67bb, type: 3}
       propertyPath: m_Name
+      value: FoodWaste
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c61f62438f1fcef498c8b2411e2b67bb, type: 3}
+      propertyPath: m_TagString
       value: FoodWaste
       objectReference: {fileID: 0}
     - target: {fileID: 5908160863352278831, guid: c61f62438f1fcef498c8b2411e2b67bb, type: 3}
