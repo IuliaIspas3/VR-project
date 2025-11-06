@@ -64,7 +64,7 @@
         "com.unity.ide.rider": "3.0.38",
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.performance.profile-analyzer": "1.2.3",
-        "com.unity.test-framework": "1.6.0",
+        "com.unity.test-framework": "1.5.1",
         "com.unity.testtools.codecoverage": "1.2.6"
       }
     },
@@ -281,7 +281,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.5.2",
+      "version": "2.5.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
