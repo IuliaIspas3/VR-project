@@ -8,6 +8,13 @@ TagManager:
   - PaperBin
   - Paper
   - FoodWaste
+  - Glass
+  - Hazard
+  - Carton
+  - Textils
+  - Metal
+  - Residual
+  - Plastic
   layers:
   - Default
   - TransparentFX
