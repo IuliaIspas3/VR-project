@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5711733599764078474}
   m_Layer: 0
   m_Name: juice
-  m_TagString: Untagged
+  m_TagString: Carton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
