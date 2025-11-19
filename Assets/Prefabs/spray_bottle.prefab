@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 2491583641465573856}
   - component: {fileID: 2668779889073340049}
   - component: {fileID: 1595118873958118698}
-  - component: {fileID: 8294101575854144382}
   m_Layer: 0
   m_Name: spray_bottle
   m_TagString: Untagged
@@ -243,19 +242,6 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
---- !u!114 &8294101575854144382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 595832872300089781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90698bbcdedf7647a1ad400c88c6e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashTag: Hazard
 --- !u!1 &938054201290130772
 GameObject:
   m_ObjectHideFlags: 0

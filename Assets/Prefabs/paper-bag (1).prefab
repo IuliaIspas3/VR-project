@@ -184,7 +184,6 @@ GameObject:
   - component: {fileID: 4466974647397052922}
   - component: {fileID: 7512524139786142931}
   - component: {fileID: 4368838072180757595}
-  - component: {fileID: 3828863625224558469}
   m_Layer: 0
   m_Name: paper-bag (1)
   m_TagString: Untagged
@@ -316,7 +315,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -384,16 +383,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.2018876, y: 3.156355, z: 0.9513473}
   m_Center: {x: -0.02535765, y: 1.5529662, z: -0.024326414}
---- !u!114 &3828863625224558469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7158193364667587542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90698bbcdedf7647a1ad400c88c6e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashTag: PaperBin

@@ -128,7 +128,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5513164301466484834}
   - component: {fileID: 7514962096694221222}
-  - component: {fileID: 9079610899445041802}
   - component: {fileID: 7262257309414419293}
   - component: {fileID: 5711733599764078474}
   m_Layer: 0
@@ -175,19 +174,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.9153391, y: 0.7246939, z: 1.8619943}
   m_Center: {x: 0.0035504734, y: -0.016927801, z: -0.05135281}
---- !u!114 &9079610899445041802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5271874742539635241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90698bbcdedf7647a1ad400c88c6e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashTag: Carton
 --- !u!54 &7262257309414419293
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -295,7 +281,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8255354158444346044}
   - component: {fileID: 1699024689711212786}
-  - component: {fileID: 7203829689441085878}
+  - component: {fileID: 5285735297024970220}
   m_Layer: 0
   m_Name: inside
   m_TagString: PaperBin
@@ -54,7 +54,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7203829689441085878
+--- !u!114 &5285735297024970220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,6 +66,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90698bbcdedf7647a1ad400c88c6e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trashTag: 
+  scoreText: {fileID: 0}
+  camera: {fileID: 0}
 --- !u!1 &6869198193443479073
 GameObject:
   m_ObjectHideFlags: 0
